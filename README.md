@@ -64,4 +64,8 @@ https://hub.docker.com/r/bitnami/moodle
 
 コンテナ上のLinuxのロケールが足りない臭い感じ。
 
-本格的に使う場合にはDBを本当にMariaDBにするのか、また永続化ファイルの置き場所はどこが良いか（PaaS想定ならS3にどう置くのか）とかが
+本格的に使う場合にはDBを本当にMariaDBにするのか、また永続化ファイルの置き場所はどこが良いか（PaaS想定ならS3にどう置くのか）とかが論点になるかもしれません
+
+## その他適当な情報
+
+- https://www1.hus.ac.jp/~fukai/ QuEDIT クイズ作成
