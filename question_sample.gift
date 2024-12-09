@@ -1,0 +1,565 @@
+$CATEGORY: $course$/top/Default for 応用情報練習
+
+
+::問1::[html]<p>bour 2 進数 $x_1 x_2$ が表す整数を $x$ とする。 2 進数 $x_2 x_1$ が表す整数を, $x$ の式で表したものはどれか。ここで，int(r) は非負の実数 $\mathrm{r}$ の小数点以下を切り捨てた整数を表す。</p>{
+	~<p><span data-sheets-root\="1">$2 x+4 \text{int}\left(\frac{x}{2}\right)$</span></p>
+	~<p><span data-sheets-root\="1">$2 x+5 \text{int}\left(\frac{x}{2}\right)$</span></p>
+	=<p><span data-sheets-root\="1">$2 x-3 \text{int}\left(\frac{x}{2}\right)$</span></p>
+	~<p><span data-sheets-root\="1">$2 x-4 \text{int}\left(\frac{x}{2}\right)$</span></p>
+}
+
+::問2::[html]<p>複数の変数をもつデータに対する分析手法の記述のうち, 主成分分析はどれか。</p>{
+	~<p><span data-sheets-root\="1">変数に共通して影響を与える新たな変数を計算して, データの背後にある構造を取得する方法</span></p>
+	~<p><span data-sheets-root\="1">変数の値からほかの変数の値を予測して, データがもつ変数間の関連性を確認する方法</span></p>
+	~<p><span data-sheets-root\="1">変数の値が互いに類似するものを集めることによって, データを分類する方法</span></p>
+	=<p><span data-sheets-root\="1">変数を結合した新たな変数を使用して, データがもつ変数の数を減らす方法</span></p>
+}
+
+::問3::[html]<p>逆ポーランド表記法（後置記法）で表現されている式 ABCD-メナにおいて，$\mathrm{A}=16, \mathrm{~B}=8, \mathrm{C}=4, \mathrm{D}=2$ のときの演算結果はどれか。逆ポーランド表記法による式 $\mathrm{AB}+$ は, 中置記法による式 $\mathrm{A}+\mathrm{B}$ と同一である。</p>{
+	=<p><span data-sheets-root\="1">32</span></p>
+	~<p><span data-sheets-root\="1">46</span></p>
+	~<p><span data-sheets-root\="1">48</span></p>
+	~<p><span data-sheets-root\="1">94</span></p>
+}
+
+::問4::[html]<p>図のように 16 ビットのデータを $4 \times 4$ の正方形状に並べ, 行と列にパリティビットを付加することによって何ビットまでの限りを託正できるか。ここで, 図の網拌け部分はパリティビットを表す。</p>{
+	=<p><span data-sheets-root\="1">1</span></p>
+	~<p><span data-sheets-root\="1">2</span></p>
+	~<p><span data-sheets-root\="1">3</span></p>
+	~<p><span data-sheets-root\="1">4</span></p>
+}
+
+::問5::[html]<p>双方向リストを三つの一次元配列 elem[i], next[i], prev[i]の組で実現する。双方向リストが図の状態のとき, 要素 D の次に要素 C を挿入した後の next[6], prev[6]の値の組合せはどれか。ここで, 双方向リストは次のように表現する。</p>{
+	~<p><span data-sheets-root\="1">2,3</span></p>
+	~<p><span data-sheets-root\="1">3,4</span></p>
+	=<p><span data-sheets-root\="1">5,3</span></p>
+	~<p><span data-sheets-root\="1">5,4</span></p>
+}
+
+::問6::[html]<p>あるデータ列を整列したら状態 0 から順に状態 $1,2, \cdots, N$ へと推移した。整列に使ったアルゴリズムはどれか。状態 $0: 3,5,9,6,1,2$、状態 $1: 3,5,6,1,2,9$、状態 $2: 3,5,1,2,6,9$、状態 $N: 1,2,3,5,6,9$。</p>{
+	~<p><span data-sheets-root\="1">クイックソート</span></p>
+	~<p><span data-sheets-root\="1">インサートソート</span></p>
+	=<p><span data-sheets-root\="1">バブルソート</span></p>
+	~<p><span data-sheets-root\="1">ヒープソート</span></p>
+}
+
+::問7::[html]<p>JavaScript のオブジエクトの表記法なとを基にして規定したものであって, “名前と値との組みの集まり”と“値の順序付きリスト”の二つの構造に基づいてオブジエクトを表現する，データ記述の仕様はどれか。</p>{
+	~<p><span data-sheets-root\="1">DOM</span></p>
+	=<p><span data-sheets-root\="1">JSON</span></p>
+	~<p><span data-sheets-root\="1">SOAP</span></p>
+	~<p><span data-sheets-root\="1">XML</span></p>
+}
+
+::問8::[html]<p>スマートフォンなどで高い処理性能と低消費電力の両立のために, 異なる目的に適した複数の種類のコアを搭載したプロセッサはどれか。</p>{
+	~<p><span data-sheets-root\="1">スーパースカラプロセッサ</span></p>
+	~<p><span data-sheets-root\="1">シングルコアプロセッサ</span></p>
+	=<p><span data-sheets-root\="1">ヘテロジニアスマルチコアプロセッサ</span></p>
+	~<p><span data-sheets-root\="1">ホモジニアスマルチコアプロセッサ</span></p>
+}
+
+::問9::[html]<p>バイプラインの性能を向上させるための技法の一つで, 分岐条件の結果が決定する前に, 分岐先を予測して命令を実行するものはどれか。</p>{
+	~<p><span data-sheets-root\="1">アウトオブオーダー実行</span></p>
+	~<p><span data-sheets-root\="1">遅延分岐</span></p>
+	=<p><span data-sheets-root\="1">投機実行</span></p>
+	~<p><span data-sheets-root\="1">レジスタリネーミング</span></p>
+}
+
+::問10::[html]<p>ファイルシステムをフラッシュメモリで構成するとき, プロックごとの書き換え回数を管理することによって，フラッシュメモリの寿命を延ばす技術はどれか。</p>{
+	=<p><span data-sheets-root\="1">ウエアレベリング</span></p>
+	~<p><span data-sheets-root\="1">ジャーナリング</span></p>
+	~<p><span data-sheets-root\="1">デフラグ</span></p>
+	~<p><span data-sheets-root\="1">ライトアンプリフィケーション</span></p>
+}
+
+::問11::[html]<p>画面表示用フレームバッファがココフフイトメモリ方式であるシステムの特微はどれか。</p>{
+	~<p><span data-sheets-root\="1">主記憶とは別に專用のフレームバッファをもつ。</span></p>
+	=<p><span data-sheets-root\="1">主記憶の一部を表示領域として使用する。</span></p>
+	~<p><span data-sheets-root\="1">シリアル接続した表示デバイスに，描画コマンドを用いて表示する。</span></p>
+	~<p><span data-sheets-root\="1">表示リフレッシュが不要。</span></p>
+}
+
+::問12::[html]<p>SAN (Storage Area Network) におけるHumanHuman についてストレージの接続形態の説明として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">シリアルATAなどの接続方式によって内蔵ストレージとして1 対 1 に接続する。</span></p>
+	=<p><span data-sheets-root\="1">ファイバチャネルなどによる専用ネットワークで接続する。</span></p>
+	~<p><span data-sheets-root\="1">プロトコルは CIFS (Common Internet File System) を使用し, LAN で接続する。</span></p>
+	~<p><span data-sheets-root\="1">プロトコルは NFS (Network File System) を使用し, LAN で接続する。</span></p>
+}
+
+::問13::[html]<p>システムの性能を向上させるための方法として，スケールアウトが適しているシステムはどれか。</p>{
+	~<p><span data-sheets-root\="1">一連の大きな処理を一括して実行しなければならないので, 並列処理が困難な処理が中心のシステム</span></p>
+	=<p><span data-sheets-root\="1">参照系のトランザクションが多いので，複数のサーバで分散処理を行っているシステム</span></p>
+	~<p><span data-sheets-root\="1">データを追加するトランザクションが多いので，データの整合性を取るためのオーバーヘッドを小さくしなければならないシステム</span></p>
+	~<p><span data-sheets-root\="1">同一のマスターデータベースがシステム内に複数配備されているので，マスターを更新する際にはデータベース間で整合性を保持しなければならないシステム</span></p>
+}
+
+::問14::[html]<p>IaC (Infrastructure as Code) に関する記述として, 最も適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">インフラストラクチャの自律的なシステム運用を実現するために，インシデントへの対応手順をコードに定めること</span></p>
+	~<p><span data-sheets-root\="1">各種開発支援ツールを利用するために, ビルドの手順をコードに定めること</span></p>
+	~<p><span data-sheets-root\="1">継続的インテグレーションを実現するために，アプリケーションの生成手順や試験の手順をコードに定めること</span></p>
+	=<p><span data-sheets-root\="1">ソフトウェアによる自動実行を可能にするために, システムの構成や状態をコードに定めること</span></p>
+}
+
+::問15::[html]<p>アクティプースタンバイ構成の2台のサーバから成るシステムがある。各サーバの MTBF は 99 時間, MTTR は 10 時間, フェールオーバーに要する時間は 2 時間であるとき,このシステムの可用性はおよそ幾らか。ここで, 二重に障害は発生しないものとする。</p>{
+	~<p><span data-sheets-root\="1">0.82</span></p>
+	~<p><span data-sheets-root\="1">0.89</span></p>
+	~<p><span data-sheets-root\="1">0.91</span></p>
+	=<p><span data-sheets-root\="1">0.98</span></p>
+}
+
+::問16::[html]<p>ページング方式の仮想記憶に，あるプログラムを実行したとき，1 回のページフォールトの平均処理時間は 30 ミリ秒であった。ページフォールト発生時の処理時間が次の条件であったとする。ページアウトを伴わないページインだけの処理の割合は幾らか。(ページフォールト発生時の処理時間) (1) ページアウトを伴わない場合，ページインの処理時間は 20 ミリ秒である。 (2) ページアウトを伴う場合, 置換えページの選択, ページアウト, ページインの合計処理時間は 60 ミリ秒である。</p>{
+	~<p><span data-sheets-root\="1">0.25</span></p>
+	~<p><span data-sheets-root\="1">0.33</span></p>
+	~<p><span data-sheets-root\="1">0.67</span></p>
+	=<p><span data-sheets-root\="1">0.75</span></p>
+}
+
+::問17::[html]<p>プリエンプティブな優先度ベースのスケジューリングで実行する二つの同期タスク A 及び B がある。タスク B が同期内に処理を完了できるタスク A 及び B の最大実行時間及び同期の組合せはどれか。ここで，タスク A の方がタスク B より優先度が高く，かつ, タスク A と B の共有資源はなく, タスク切替え時間は考慮しないものとする。また, 時間及び同期の単位はミリ秒とする。</p>{
+	=<p><span data-sheets-root\="1">タスクA: 2, タスクB: 3, 同期: 4</span></p>
+	~<p><span data-sheets-root\="1">タスクA: 3, タスクB: 4, 同期: 9</span></p>
+	~<p><span data-sheets-root\="1">タスクA: 4, タスクB: 5, 同期: 15</span></p>
+	~<p><span data-sheets-root\="1">なし</span></p>
+}
+
+::問18::[html]<p>あるコンピュータ上で, 当然コンピュータとは異なる命令形式のコンピュータで実行できる目的プログラムを生成する言語処理プログラムはどれか。</p>{
+	~<p><span data-sheets-root\="1">エミュレーター</span></p>
+	=<p><span data-sheets-root\="1">クロスコンパイラ</span></p>
+	~<p><span data-sheets-root\="1">最適化コンパイラ</span></p>
+	~<p><span data-sheets-root\="1">プログラムジェネレーター</span></p>
+}
+
+::問19::[html]<p>Linux カーネルの説明として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">CUIによるコマンド入力のためのシェルであって, 文字での操作が可能である。</span></p>
+	~<p><span data-sheets-root\="1">GUI を利用できるデスクトップ環境が組み込まれていて, マウスを使った直感的な操作が可能である。</span></p>
+	~<p><span data-sheets-root\="1">Web ブラウザ, ワープロソフト, 表計算ソフトなどが含まれており, Linux カーネルだけで多くの業務が行える。</span></p>
+	=<p><span data-sheets-root\="1">プロセス管理やメモリ管理などの, アプリケーションソフトウェアが動作するための基本機能を提供する。</span></p>
+}
+
+::問20::[html]<p>FPGAの説明として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">電気的に記憶内容の書き換えを行うことができる不揮発性メモリ</span></p>
+	~<p><span data-sheets-root\="1">特定の分野及びアプリケーション用に限定した特定用途向け汎用集積回路</span></p>
+	~<p><span data-sheets-root\="1">浮動小数点数の演算を高速に実行する演算ユニット</span></p>
+	=<p><span data-sheets-root\="1">論理回路を基板上に実装した後で再プログラム可能な集積回路</span></p>
+}
+
+::問21::[html]<p>MOS トランジスタの説明として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">pn 接合における電子と正孔の再結合によって光を放出するという性質を利用した半導体素子</span></p>
+	~<p><span data-sheets-root\="1">pn 接合部に光が当たると電流が発生するという性質を利用した半導体素子</span></p>
+	=<p><span data-sheets-root\="1">金属と半導体との間に酸化物絶縁体を挟んだ構造をもつことが特微の半導体素子</span></p>
+	~<p><span data-sheets-root\="1">逆方向電圧をある電圧以上印加すると, 電流だけが増加し電圧がほぼ一定に保たれるという特性をもつ半導体素子</span></p>
+}
+
+::問22::[html]<p>図の論理回路において, $\mathrm{S}=1, \mathrm{R}=1, \mathrm{X}=0, \mathrm{Y}=1$ のとき, $\mathrm{S}$ を一旦 0 にした後, 再度 1 に戻した。この操作を行った後のX, Y の値はどれか。</p>{
+	~<p><span data-sheets-root\="1">$X=0, Y=0$</span></p>
+	~<p><span data-sheets-root\="1">$X=0, Y=1$</span></p>
+	=<p><span data-sheets-root\="1">$X=1, Y=0$</span></p>
+	~<p><span data-sheets-root\="1">$X=1, Y=1$</span></p>
+}
+
+::問23::[html]<p>真理値表に示す 3 入力多数決回路はどれか。</p>{
+	=<p><span data-sheets-root\="1">アンドゲート</span></p>
+	~<p><span data-sheets-root\="1">オアゲート</span></p>
+	~<p><span data-sheets-root\="1">XORゲート</span></p>
+	~<p><span data-sheets-root\="1">多数決回路</span></p>
+}
+
+::問24::[html]<p>JIS X 9303-1:2006 (Unicode 3.2版) の記述として, 適切なものはどれか。</p>{
+	=<p><span data-sheets-root\="1">Unicodeは、文字コードの国際標準である。</span></p>
+	~<p><span data-sheets-root\="1">Unicodeは、固定長の16ビット文字コードである。</span></p>
+	~<p><span data-sheets-root\="1">Unicodeは、ASCIIコードをそのまま含む。</span></p>
+	~<p><span data-sheets-root\="1">Unicodeは、すべての文字を一意に表現できる。</span></p>
+}
+
+::問25::[html]<p>ソフトウェアライフサイクルの中で、コードの品質を保証するための活動として適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">ユニットテスト</span></p>
+	=<p><span data-sheets-root\="1">結合テスト</span></p>
+	~<p><span data-sheets-root\="1">システムテスト</span></p>
+	~<p><span data-sheets-root\="1">ユーザー受け入れテスト</span></p>
+}
+
+::問26::[html]<p>「売上」表への次の検索処理のうち，B-ツリーインデックスよりもハッシングインデックスを設定した方が適切なものはどれか。ここで，インデックスを設定する列を< >内に示す。売上 (伝票番号, 売上年月日, 商品名, 利用者 ID, 店舗, 売上金額)</p>{
+	~<p><span data-sheets-root\="1">売上金額 1 万円以上の売上を検索する。<売上金額></span></p>
+	~<p><span data-sheets-root\="1">売上年月日が今月を検索する。<売上年月日></span></p>
+	~<p><span data-sheets-root\="1">商品名が 'DB' で始まる売上を検索する。<商品名></span></p>
+	=<p><span data-sheets-root\="1">利用者IDが '1001' の売上を検索する。<利用者ID></span></p>
+}
+
+::問27::[html]<p>関係モデルにおける外部キーの説明として, 適切なものはどれか。</p>{
+	=<p><span data-sheets-root\="1">ある関係の候補キーを参照する属性, または属性の組</span></p>
+	~<p><span data-sheets-root\="1">主キー以外で, タプルを一意に識別できる属性, または属性の組</span></p>
+	~<p><span data-sheets-root\="1">タプルを一意に識別できる属性, または属性の組の集合のうち極小のもの</span></p>
+	~<p><span data-sheets-root\="1">タプルを一意に識別できる属性, または属性の組を含む集合</span></p>
+}
+
+::問28::[html]<p>更新可能なビューを作成する SQL 文はどれか。ここで, SQL 文中に現れる基底表は全て更新可能とする。</p>{
+	=<p><span data-sheets-root\="1">CREATE VIEW 高価商品(商品番号, 商品名, 商品単価) AS SELECT 商品番号, 商品名, 商品単価 FROM 商品 WHERE 商品単価 > 1000</span></p>
+	~<p><span data-sheets-root\="1">CREATE VIEW 受注商品(商品番号) AS SELECT DISTINCT 商品番号 FROM 受注</span></p>
+	~<p><span data-sheets-root\="1">CREATE VIEW 商品受注(商品番号, 受注数量) AS SELECT 商品番号, SUM(受注数量) FROM 受注 GROUP BY 商品番号</span></p>
+	~<p><span data-sheets-root\="1">CREATE VIEW 商品平均受注数量(平均受注数量) AS SELECT AVG(受注数量) FROM 受注</span></p>
+}
+
+::問29::[html]<p>「製品」表と「在庫」表に対し, 次のSQL 文を実行した結果として得られる表の行数は幾つか。SELECT DISTINCT 製品番号 FROM 製品 WHERE NOT EXISTS (SELECT 製品番号 FROM 在庫 WHERE 在庫数 > 30 AND 製品.製品番号 = 在庫.製品番号)</p>{
+	~<p><span data-sheets-root\="1">1</span></p>
+	=<p><span data-sheets-root\="1">2</span></p>
+	~<p><span data-sheets-root\="1">3</span></p>
+	~<p><span data-sheets-root\="1">4</span></p>
+}
+
+::問30::[html]<p>DBMS をシステム障害発生後に再起動するとき，ロールフォワードすべきトランザクションとロールバックすべきトランザクションの組合せとして, 適切なものはどれか。ここで，トランザクションの中で実行される処理内容は次のとおりとする。</p>{
+	=<p><span data-sheets-root\="1">詳細な情報が不足しているため、具体的な選択肢を提供できません。</span></p>
+	~<p><span data-sheets-root\="1"></span></p>
+	~<p><span data-sheets-root\="1"></span></p>
+	~<p><span data-sheets-root\="1"></span></p>
+}
+
+::問31::[html]<p>トランザクション管理におけるACIDプロパティのうち、整合性（Consistency）についての説明として適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">トランザクションが成功すると、データベースは常に一貫した状態を保つ。</span></p>
+	~<p><span data-sheets-root\="1">トランザクションが一度にすべて実行されるか、まったく実行されない。</span></p>
+	=<p><span data-sheets-root\="1">複数のトランザクションが同時に実行されても、結果は正しい。</span></p>
+	~<p><span data-sheets-root\="1">トランザクションの変更は永続的に保存される。</span></p>
+}
+
+::問32::[html]<p>プライベートIPアドレスを割り当てられた PC が NAPT (IP マスカレード) 機能をもつルータを経由して，インターネット上の Web サーバにアクセスしている。Web サーバから PC への応答パケットに含まれるヘッダー情報のうち，このルータで書き換えられるフィールドの組合せとして, 適切なものはどれか。ここで, 表中の○はフィールドの情報が書き換えられることを表す。</p>{
+	~<p><span data-sheets-root\="1">発先 IP アドレス○, 送信元 IP アドレス○</span></p>
+	=<p><span data-sheets-root\="1">発先 IP アドレス○, 発先ポート番号○</span></p>
+	~<p><span data-sheets-root\="1">送信元 IP アドレス○, 送信元ポート番号○</span></p>
+	~<p><span data-sheets-root\="1">発先ポート番号○, 送信元ポート番号○</span></p>
+}
+
+::問33::[html]<p>TCP/IP 環境において, ping によってホストの接続確認をすることができるプロトコルはどれか。</p>{
+	~<p><span data-sheets-root\="1">CHAP</span></p>
+	=<p><span data-sheets-root\="1">ICMP</span></p>
+	~<p><span data-sheets-root\="1">SMTP</span></p>
+	~<p><span data-sheets-root\="1">SNMP</span></p>
+}
+
+::問34::[html]<p>サブネットマスクが $255.255.252.0$ のとき, IP アドレス $172.30.123.45$ のホストが属するサブネットワークのアドレスはどれか。</p>{
+	~<p><span data-sheets-root\="1">$172.30.3.0$</span></p>
+	=<p><span data-sheets-root\="1">$172.30.120.0$</span></p>
+	~<p><span data-sheets-root\="1">$172.30.123.0$</span></p>
+	~<p><span data-sheets-root\="1">$172.30.252.0$</span></p>
+}
+
+::問35::[html]<p>IPv4 ネットワークにおけるマルチキャストの使用例に関する記述として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">LAN に初めて接続する PC が, DHCP プロトコルを使用して, IP アドレスを取得する際に使用する。</span></p>
+	~<p><span data-sheets-root\="1">ネットワーク機器が, ARP プロトコルを使用して, 発先 IP アドレスから MAC アドレスを得るためのリクエストを送信する際に使用する。</span></p>
+	~<p><span data-sheets-root\="1">メーリングリストの利用者が，SMTP プロトコルを使用して，メンバー全員に対し, 同一内容の電子メールを一括送信する際に使用する。</span></p>
+	=<p><span data-sheets-root\="1">ルータがRIP-2 プロトコルを使用して, 隣接するルータのグループに, 経路の更新情報を送信する際に使用する。</span></p>
+}
+
+::問36::[html]<p>パスワードクラック手法の一種である, ブルートフォース攻撃に該当するものはどれか。</p>{
+	~<p><span data-sheets-root\="1">何らかの方法で事前に利用者 ID と平文のパスワードのリストを入手しておき,複数のシステム間で使い回されている利用者 ID とパスワードの組みを試して, ログインを試行する。</span></p>
+	~<p><span data-sheets-root\="1">パスワードに成り得る文字列の全てを用いて, 総当たりでログインを試行する。</span></p>
+	=<p><span data-sheets-root\="1">平文のパスワードとハッシュ値をチェーンによって管理するテーブルを準備しておき，それを用いて，不正に入手したハッシュ値からパスワードを解読する。</span></p>
+	~<p><span data-sheets-root\="1">利用者の誕生日, 電話番号などの個人情報を巧みに聞き出して, パスワードを類推する。</span></p>
+}
+
+::問37::[html]<p>楕円曲線暗号の特徴はどれか。</p>{
+	=<p><span data-sheets-root\="1">RSA 暗号と比べて, 短い鍵長で同レベルの安全性が実現できる。</span></p>
+	~<p><span data-sheets-root\="1">共通鍵暗号方式であり，暗号化や復号の処理を高速に行うことができる。</span></p>
+	~<p><span data-sheets-root\="1">総当たりによる解読が不可能なことが，数学的に証明されている。</span></p>
+	~<p><span data-sheets-root\="1">楕円曲線暗号は全ての暗号化アルゴリズムの中で最も高速である。</span></p>
+}
+
+::問38::[html]<p>自社の内部メールサーバで，接続元 IP アドレス，電子メールの送信者のメールアドレスのドメイン名, 及び電子メールの受信者のメールアドレスのドメインをから成るログを取得するとき, 外部ネットワークからの第三者中継と判断できるログはどれか。</p>{
+	~<p><span data-sheets-root\="1">AAA.168.1.5, a.b.c, a.b.d</span></p>
+	~<p><span data-sheets-root\="1">AAA.168.1.10, a.b.c, a.b.c</span></p>
+	=<p><span data-sheets-root\="1">BBB.45.67.89, a.b.d, a.b.e</span></p>
+	~<p><span data-sheets-root\="1">BBB.45.67.90, a.b.d, a.b.c</span></p>
+}
+
+::問39::[html]<p>JPCERT コーディネーションセンター “CSIRT ガイド (2021 年 11 月 30 日)”では, CSIRT を機能とサービス対象によって六つに分類しており，その一つにコーディネーションセンターがある。コーディネーションセンターの機能とサービス対象の組み合わせとして, 適切なものはどれか。</p>{
+	=<p><span data-sheets-root\="1">インシデント対応の中で, CSIRT 間の情報連携, 調整を行う。, 他の CSIRT</span></p>
+	~<p><span data-sheets-root\="1">インシデントの傾向分析やマルウェアの解析, 攻撃のSEDの分析を行い, 必要に応じて注意喚起する。, 関係組織, 国又は地域</span></p>
+	~<p><span data-sheets-root\="1">自社製品の脆弱性に対応し, パッチ作成や注意喚起を行う。, 自社製品の利用者</span></p>
+	~<p><span data-sheets-root\="1">組織内 CSIRT の機能の一部又は全部をサービスプロバイダとして, 有償で請け負う。, 顧客</span></p>
+}
+
+::問40::[html]<p>JIS Q 27000:2019 (情報セキュリティマネジメントシステムー用語) において,認可されていない個人, エンティティ又はプロセスに対して, 情報を使用させず, また, 開示しない特性として定義されているものはどれか。</p>{
+	=<p><span data-sheets-root\="1">機密性</span></p>
+	~<p><span data-sheets-root\="1">真正性</span></p>
+	~<p><span data-sheets-root\="1">認証</span></p>
+	~<p><span data-sheets-root\="1">否認防止</span></p>
+}
+
+::問41::[html]<p>暗号機能を実装した IoT 機器における攻撃のうち, サイドチャネル攻撃に該当するものはどれか。</p>{
+	~<p><span data-sheets-root\="1">暗号化関数を線形近似する式を導き，その線形近似式から秘密情報の取得を試みる。</span></p>
+	=<p><span data-sheets-root\="1">機器が発する電磁波を測定することによって秘密情報の取得を試みる。</span></p>
+	~<p><span data-sheets-root\="1">二つの平文の差とそれぞれの暗号文の差の関係から, 秘密情報の取得を試みる。</span></p>
+	~<p><span data-sheets-root\="1">理論的にあり得る復号鍵の全てを機器に入力して秘密情報の取得を試みる。</span></p>
+}
+
+::問42::[html]<p>セキュアブートの説明はどれか。</p>{
+	~<p><span data-sheets-root\="1">BIOSにパスワードを設定し，PC 起動時にBIOSのパスワード入力を要求することによって, OS の不正な起動を防ぐ技術</span></p>
+	~<p><span data-sheets-root\="1">HDD 又は SSDにパスワードを設定し，PC 起動時にHDD 又はSSD のパスワード入力を要求することによって, OS の不正な起動を防ぐ技術</span></p>
+	=<p><span data-sheets-root\="1">PC の起動時に OS のプログラムやドライバのデジタル署名を検証し, デジタル署名が有効なものだけを実行することによって, OS 起動前のマルウェアの実行を防ぐ技術</span></p>
+	~<p><span data-sheets-root\="1">マルウェア対策ソフトウェアを利用して，マルウェアの侵入を防ぐ技術</span></p>
+}
+
+::問43::[html]<p>PC のストレージ上の重要なデータを保護する方法のうち, ランダムウェア感染による被害の低減に効果があるものはどれか。</p>{
+	=<p><span data-sheets-root\="1">WORM (Write Once Read Many) 機能を有するストレージを導入して，そこに重要なデータをバックアップする。</span></p>
+	~<p><span data-sheets-root\="1">ストレージを RAID5 構成にして，1 台のディスク故障時にも重要なデータを利用可能にする。</span></p>
+	~<p><span data-sheets-root\="1">内蔵ストレージを増設して，重要なデータを常時レプリケーションする。</span></p>
+	~<p><span data-sheets-root\="1">ネットワーク上のストレージの共有フォルダをネットワークドライブに割り当てて，そこに重要なデータをバックアップする。</span></p>
+}
+
+::問44::[html]<p>DKIM (DomainKeys Identified Mail) に関する記述のうち, 適切なものはどれか。</p>{
+	=<p><span data-sheets-root\="1">送信側のメールサーバで電子メールにデジタル署名を付与し，受信側のメールサーバでそのデジタル署名を検証して送信元ドメインの認証を行う。</span></p>
+	~<p><span data-sheets-root\="1">送信者が電子メールを送信するとき，送信側のメールサーバは，送信者が正規の利用者かどうかの認証を利用者 IDとパスワードによって行う。</span></p>
+	~<p><span data-sheets-root\="1">送信元ドメイン認証に失敗した際の電子メールの処理方法を記載したポリシーを DNS サーバに登録し，電子メールの認証結果を監視する。</span></p>
+	~<p><span data-sheets-root\="1">電子メールの送信元ドメインでメール送信に使うメールサーバの IP アドレスを DNS サーバに登録しておき，受信側で送信元ドメインの DNS サーバに登録されている IP アドレスと電子メールの送信元メールサーバの IP アドレスとを照合する。</span></p>
+}
+
+::問45::[html]<p>DNSSEC についての記述のうち, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">DNS サーバへの問合せ時の送信元ポートをランダムに選択することによって，DNS 問合せへの不正な応答を防止する。</span></p>
+	~<p><span data-sheets-root\="1">DNS の再帰的な問合せの送信元として許可するクライアントを制限することによって, DNS を利用したDoS 攻撃を防止する。</span></p>
+	~<p><span data-sheets-root\="1">共通鍵暗号方式によるメッセージ認証を用いることによって, 正当な DNS サーバからの応答であることをクライアントが検証できる。</span></p>
+	=<p><span data-sheets-root\="1">公開鍵暗号方式によるデジタル署名を用いることによって, 正当な DNS サーバからの応答であることをクライアントが検証できる。</span></p>
+}
+
+::問46::[html]<p>問題を引き起こす可能性があるデータを大量に入力し，そのときの応答や挙動を監視することによって, ソフトウェアの脆弱性を検出するテスト手法はどれか。</p>{
+	~<p><span data-sheets-root\="1">限界値分析</span></p>
+	~<p><span data-sheets-root\="1">実験デザイン法</span></p>
+	=<p><span data-sheets-root\="1">ファジング</span></p>
+	~<p><span data-sheets-root\="1">ロードテスト</span></p>
+}
+
+::問47::[html]<p>アプリケーションソフトウェアの開発環境上で, 用意された部品やテンプレートを GUI による操作で組み合わせたり, 必要に応じて一部の処理のソースコードを記述したりして, ソフトウェアを開発する手法はどれか。</p>{
+	~<p><span data-sheets-root\="1">継続的インテグレーション</span></p>
+	~<p><span data-sheets-root\="1">ノーコード開発</span></p>
+	~<p><span data-sheets-root\="1">プロトタイピング</span></p>
+	=<p><span data-sheets-root\="1">ローコード開発</span></p>
+}
+
+::問48::[html]<p>問題は発生していないが，プログラムの仕様書と現状のソースコードとの不整合を解消するために，リバースエンジニアリングの手法を使って仕様書を作成し直す。これはソフトウェア保守のどの分類に該当するか。</p>{
+	=<p><span data-sheets-root\="1">完全化保守</span></p>
+	~<p><span data-sheets-root\="1">是正保守</span></p>
+	~<p><span data-sheets-root\="1">適応保守</span></p>
+	~<p><span data-sheets-root\="1">予防保守</span></p>
+}
+
+::問49::[html]<p>アジャイルソフトウェア開発宣言では, “あることがらに価値があることを認めながらも別のことがらにより価値をおいている。” “別のこと”に該当するものの組み合わせはどれか。</p>{
+	=<p><span data-sheets-root\="1">個人と対話, 動くソフトウェア, 顧客との協調, 変化への対応</span></p>
+	~<p><span data-sheets-root\="1">個人と対話, 包括的なドキュメント, 顧客との協調, 計画に従うこと</span></p>
+	~<p><span data-sheets-root\="1">プロセスやツール, 動くソフトウェア, 顧客との協調, 変化への対応</span></p>
+	~<p><span data-sheets-root\="1">プロセスやツール, 包括的なドキュメント, 顧客との協調, 計画に従うこと</span></p>
+}
+
+::問50::[html]<p>組み込みシステムのソフトウェア開発に使われるIDE の説明として，適切なものはどれか。</p>{
+	=<p><span data-sheets-root\="1">エディター, コンパイラ,リンカ, デバッグツールなどが一体となったツール</span></p>
+	~<p><span data-sheets-root\="1">専用のハードウェアインターフェースで CPU の情報を取得する装置</span></p>
+	~<p><span data-sheets-root\="1">ターゲット CPUを搭載した評価ボードなどの実行環境</span></p>
+	~<p><span data-sheets-root\="1">タスクスケジューリングの仕組みなどを提供するソフトウェア</span></p>
+}
+
+::問51::[html]<p>PMBOK ガイド 第 7 版によれば,プロジェクト・スコープ記述書に記述する項目はどれか。</p>{
+	~<p><span data-sheets-root\="1">WBS</span></p>
+	~<p><span data-sheets-root\="1">コスト見積額</span></p>
+	~<p><span data-sheets-root\="1">ステークホルダー分類</span></p>
+	=<p><span data-sheets-root\="1">プロジェクトの除外事項</span></p>
+}
+
+::問52::[html]<p>システム開発のプロジェクトにおいて, EVM を活用したパフォーマンス管理をしている。開発途中のある時点で EV-PV の値が負であるとき, どのような状況を示しているか。</p>{
+	~<p><span data-sheets-root\="1">スケジュール効率が悪い。</span></p>
+	~<p><span data-sheets-root\="1">プロジェクトの完了が予定より早い。</span></p>
+	=<p><span data-sheets-root\="1">プロジェクトの進捗が予定より遅れている。</span></p>
+	~<p><span data-sheets-root\="1">プロジェクトが予算内に収まっている。</span></p>
+}
+
+::問53::[html]<p>プロジェクトのスケジュールを短縮したい。図1の計画では，作業 E を作業 E1，E2，E3 に分けて，図2 のように計画を変更すると，スケジュールは全体で何日短縮できるか。</p>{
+	=<p><span data-sheets-root\="1">1日</span></p>
+	~<p><span data-sheets-root\="1">2日</span></p>
+	~<p><span data-sheets-root\="1">3日</span></p>
+	~<p><span data-sheets-root\="1">4日</span></p>
+}
+
+::問54::[html]<p>プロジェクトマネジメントにおいて, コンティンジェンシープランを含むリスク管理の一環として、どの活動を行うか。</p>{
+	~<p><span data-sheets-root\="1">リスクの管理</span></p>
+	~<p><span data-sheets-root\="1">リスクの特定</span></p>
+	~<p><span data-sheets-root\="1">リスクの評価</span></p>
+	=<p><span data-sheets-root\="1">リスクへの対応</span></p>
+}
+
+::問55::[html]<p>サービスマネジメントシステム (SMS) における是正行動の説明はどれか。</p>{
+	=<p><span data-sheets-root\="1">検出された不適合又はほかの望ましくない状況の原因を除去する, または再発の起こりやすさを低減するための処理</span></p>
+	~<p><span data-sheets-root\="1">構成品目の変更に伴って, 構成情報を更新する処理</span></p>
+	~<p><span data-sheets-root\="1">パフォーマンスを向上するために繰り返し行われる活動であって, SMS 及びサービスの適切性, 妥当性及び有効性を継続的に改善するための処理</span></p>
+	~<p><span data-sheets-root\="1">問題を “記録・分類” し, “優先度付け” し, “必要ならばエスカレーション” し, “可能ならば解決する” 一連の処理</span></p>
+}
+
+::問56::[html]<p>Y 社は, 受注管理システムを運用し, 顧客に受注管理サービスを提供している。日数が 30 日, 月初日の回数が 4 回である条件のもとで, サービス提供条件を達成するための許容されるサービスの停止時間は最大何時間か。ここで, サービスの停止時間は小数第 1 位を切り捨てるものとする。[サービス提供条件]・サービスは, 計画停止時間を除いて, 毎日 0 時から 24 時まで提供する。・計画停止は, 毎月月初日の 0 時から 6 時まで実施する。・サービスの可用性は 99% 以上とする。</p>{
+	~<p><span data-sheets-root\="1">0</span></p>
+	=<p><span data-sheets-root\="1">6</span></p>
+	~<p><span data-sheets-root\="1">7</span></p>
+	~<p><span data-sheets-root\="1">13</span></p>
+}
+
+::問57::[html]<p>フルバックアップ方式と差分バックアップ方式を用いた運用に関する記述のうち，適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">障害からの復旧時に差分バックアップを複数回適用する必要がある。</span></p>
+	=<p><span data-sheets-root\="1">フルバックアップは差分バックアップよりも多くの時間と容量を必要とする。</span></p>
+	~<p><span data-sheets-root\="1">差分バックアップは増分バックアップと同じである。</span></p>
+	~<p><span data-sheets-root\="1">フルバックアップと差分バックアップは同時に行う必要がある。</span></p>
+}
+
+::問58::[html]<p>データベースのリレーショナルモデルで，正規化を行う理由として適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">データの整合性を保証するため</span></p>
+	~<p><span data-sheets-root\="1">データの冗長性を減らすため</span></p>
+	=<p><span data-sheets-root\="1">クエリのパフォーマンスを向上させるため</span></p>
+	~<p><span data-sheets-root\="1">データの物理的な格納効率を高めるため</span></p>
+}
+
+::問59::[html]<p>販売管理システムにおいて, 起票された受注伝票の入力が正確かつ重複しないように実施されていることを確かめる監査手続として，適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">受注データから値引き取引データなどの例外取引データを抽出し, 承認の記録を確認する。</span></p>
+	~<p><span data-sheets-root\="1">受注伝票の入力時に論理チェック及びフォーマットチェックが行われているか，テストデータ法で確認する。</span></p>
+	=<p><span data-sheets-root\="1">販売管理システムから出力したプルーフリストと受注伝票との照合が行われているか, プルーフリストと受注伝票上の照合印を確認する。</span></p>
+	~<p><span data-sheets-root\="1">並行シミュレーション法を用いて, 受注伝票を処理するプログラムの論理の正確性を確認する。</span></p>
+}
+
+::問60::[html]<p>金融庁「財務報告に係る内部統制の評価及び監査に関する実施基準（令和元年）」における“ITへの対応”に関する記述のうち, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">IT 環境とは, 企業内部に限られた範囲での IT の利用状況である。</span></p>
+	=<p><span data-sheets-root\="1">IT の統制は, IT に係る全般統制及び IT に係る業務処理統制から成る。</span></p>
+	~<p><span data-sheets-root\="1">IT の利用によって統制活動を自動化している場合, 当該統制活動は有効であると評価される。</span></p>
+	~<p><span data-sheets-root\="1">IT を利用せず手作業だけで内部統制を運用している場合, 直ちに内部統制の不備となる。</span></p>
+}
+
+::問61::[html]<p>バックキャスティングの説明として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">システム開発において, 先にプロジェクト要員を確定し, リソースの範囲内で優先すべき機能から順次提供する開発手法</span></p>
+	=<p><span data-sheets-root\="1">前提として認識すべき制約を受け入れた上で未来のありたい姿を描き, 予想される課題や可能性を洗い出し解決策を検討することによって, ありたい姿に近づける思考方法</span></p>
+	~<p><span data-sheets-root\="1">組織において, 下位から上位への発言を受け付けて経営の意思決定に反映するマネジメント手法</span></p>
+	~<p><span data-sheets-root\="1">投資計画の有効性を検証する際に，過去のデータを用いてどの程度の利益が期待できるかをシミュレーションする手法</span></p>
+}
+
+::問62::[html]<p>A 社は, ソリューションプロバイダから, 顧客に対するワントゥワンマーケティングを実現する包括的なソリューションの提案を受けた。この提案に含まれるソリューションとして, 最も適切なものはどれか。</p>{
+	=<p><span data-sheets-root\="1">CRMソリューション</span></p>
+	~<p><span data-sheets-root\="1">ERPソリューション</span></p>
+	~<p><span data-sheets-root\="1">SCMソリューション</span></p>
+	~<p><span data-sheets-root\="1">BIソリューション</span></p>
+}
+
+::問63::[html]<p>SOAを説明したものはどれか。</p>{
+	~<p><span data-sheets-root\="1">ビジネス改善において既存の組織やビジネスルールを抜本的に見直し, 業務フロー,管理機構及び情報システムを再構築する手法のこと</span></p>
+	~<p><span data-sheets-root\="1">ビジネスプロセスの構成要素とそれを支える「基盤」を, ソフトウェア部品であるサービスとして提供するシステムアーキテクチャのこと</span></p>
+	~<p><span data-sheets-root\="1">発生者をITアウトソーシングサービス提供者の間で、サービスの品質につい
+て合意した文章のこと</span></p>
+	=<p><span data-sheets-root\="1">ビジネスプロセスの構成要素とそれを支える基盤を、ソフトウェア部品であるサービスとして提供するシステムアーキテクチャのこと</span></p>
+}
+
+::問64::[html]<p>投資効果の評価方法において, キャッシュフローベースで初年度の投資によるキャッシュアウトを何年後に回収できるかという指標はどれか。</p>{
+	~<p><span data-sheets-root\="1">IRR (Internal Rate of Return)</span></p>
+	~<p><span data-sheets-root\="1">NPV (Net Present Value)</span></p>
+	=<p><span data-sheets-root\="1">PBP (Pay Back Period)</span></p>
+	~<p><span data-sheets-root\="1">ROI (Return On Investment)</span></p>
+}
+
+::問65::[html]<p>システム開発の成果物が利害関係者の要件（要求事項）を満たしているという客観的な証拠を得るための検証手法として, JIS X 0166:2021（システム及びソフトウェア技術ーライフサイクルプロセスー要求エンジニアリング）では, インスペクション,分析又はシミュレーション, デモンストレーション, テストを挙げている。これらのうち, 成果物となる文書について要件（要求事項）への遵守度合いを検査するものはどれか。</p>{
+	=<p><span data-sheets-root\="1">インスペクション</span></p>
+	~<p><span data-sheets-root\="1">分析又はシミュレーション</span></p>
+	~<p><span data-sheets-root\="1">デモンストレーション</span></p>
+	~<p><span data-sheets-root\="1">テスト</span></p>
+}
+
+::問66::[html]<p>半導体メーカーが行っているファウンドリーサービスの説明として, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">商号や商標の使用権とともに，一定地域内での商品の独立販売権を与える。</span></p>
+	~<p><span data-sheets-root\="1">自社で半導体製品の開発, 設計から製造までを一貫して行い, それを自社ブランドで販売する。</span></p>
+	~<p><span data-sheets-root\="1">製造設備をもたず, 半導体製品の開発, 設計及び開発を自社で行う。</span></p>
+	=<p><span data-sheets-root\="1">他社からの製造委託を受けて, 半導体製品の製造を行う。</span></p>
+}
+
+::問67::[html]<p>H. I. アンソフが提唱した成長マトリクスを説明したものはどれか。</p>{
+	=<p><span data-sheets-root\="1">新製品か既存製品かという製品軸と新市場か既存市場かという市場軸の両軸で捉え, 事業成長戦略を考える。</span></p>
+	~<p><span data-sheets-root\="1">コストで優位に立つかコスト以外で差別化するか, ターゲットを広くするか集中するかに上って戦略を考える。</span></p>
+	~<p><span data-sheets-root\="1">市場成長率が高いか低いか, 相対的市場シェアが大きいか小さいかによって事業を捉え, 資源配分の戦略を考える。</span></p>
+	~<p><span data-sheets-root\="1">自社の内部環境の強みと弱み, 取り巻く外部環境の機会と脅威, 取り組み方針を整理して戦略を考える。</span></p>
+}
+
+::問68::[html]<p>顧客から得る同意の範囲を段階的に広げなが, プロモーションを行うことが特徴的なマーケティング手法はどれか。</p>{
+	~<p><span data-sheets-root\="1">アフィリエイトマーケティング</span></p>
+	~<p><span data-sheets-root\="1">差別型マーケティング</span></p>
+	=<p><span data-sheets-root\="1">パーミッションマーケティング</span></p>
+	~<p><span data-sheets-root\="1">バイラルマーケティング</span></p>
+}
+
+::問69::[html]<p>市場を消費者特性でセグメント化する際に，基準となる変数を，地理的変数, 人口統計変数, 心理変数, 行動変数に分類する。地理的変数に該当するものはどれか。</p>{
+	~<p><span data-sheets-root\="1">社交性などの性格</span></p>
+	=<p><span data-sheets-root\="1">職業</span></p>
+	~<p><span data-sheets-root\="1">人口密度</span></p>
+	~<p><span data-sheets-root\="1">製品の使用頻度</span></p>
+}
+
+::問70::[html]<p>オープンイノベーションの説明として，適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">外部の企業に製品開発の一部を任せることで，短期間で市場へ製品を投入する。</span></p>
+	~<p><span data-sheets-root\="1">顧客に提供する製品やサービスを自社で開発することで，新たな価値を創出する。</span></p>
+	=<p><span data-sheets-root\="1">自社と外部組織の技術やアイディアなどを組み合わせることで創出した価値を，さらに外部組織へ提供する。</span></p>
+	~<p><span data-sheets-root\="1">自社の業務の工程を見直すことで，生産性向上とコスト削減を図る。</span></p>
+}
+
+::問71::[html]<p>CPS（サイバーフィジカルシステム）を活用している事例はどれか。</p>{
+	~<p><span data-sheets-root\="1">仮想化された標準的なシステム資源を用意しておき，業務内容に合わせてシステムの規模や構成をソフトウェアによって設定する。</span></p>
+	~<p><span data-sheets-root\="1">機器を販売するためではなく貸し出し、その機器に組み込まれたセキュアで使用状況を検出し、その情報を基に利用者から利用料金を徴収する。
+</span></p>
+	~<p><span data-sheets-root\="1">業務処理機能やデータ蓄積機能をサービスにした、クラウド上にあるソフトウェアを提供し、ユーザーはネットワーク経由で必要な機能を呼び出して業務を行う。</span></p>
+	=<p><span data-sheets-root\="1">現実世界の都市の構造や資源状況のデータによって仮想世界を構築し、災害の発生や時間経過を自己操作して、現実世界で実現できないシミュレーションを行う。</span></p>
+}
+
+::問72::[html]<p>個人や団体が, インターネットを介して提示された単発の仕事を受託する働き方や, それによって形成される経済形態を表すものはどれか。</p>{
+	~<p><span data-sheets-root\="1">APIエコノミー</span></p>
+	=<p><span data-sheets-root\="1">ギグエコノミー</span></p>
+	~<p><span data-sheets-root\="1">シャリングエコノミー</span></p>
+	~<p><span data-sheets-root\="1">トークンエコノミー</span></p>
+}
+
+::問73::[html]<p>スマートファクトリーで使用される AI を用いたマニュファクチャリングの目的として，適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">作業者が装着した VR ゴーグルに作業プロセスを表示することによって，作業効率を向上させる。</span></p>
+	=<p><span data-sheets-root\="1">従来の人間の目視検査を自動化し，検査効率を向上させる。</span></p>
+	~<p><span data-sheets-root\="1">需要予測を目的として, クラウドに蓄積した入出荷データを用いて機械学習を行い, 生産数の最適化を行う。</span></p>
+	~<p><span data-sheets-root\="1">設計変更内容を, AI を用いて即座に伝達し, 製造現場に正確に伝達する。</span></p>
+}
+
+::問74::[html]<p>BCM (Business Continuity Management) において考慮すべきレジリエンスの説明はどれか。</p>{
+	~<p><span data-sheets-root\="1">競争力の源泉となる, 他社に真似のできない自社固有の強み</span></p>
+	~<p><span data-sheets-root\="1">想定される全てのリスクを回避して事業継続を行う方針</span></p>
+	~<p><span data-sheets-root\="1">大規模災害などの発生時に事業の継続を可能とするために事前に策定するアクション</span></p>
+	=<p><span data-sheets-root\="1">事業継続計画を定期的に見直し更新することで、災害や事故に対する耐性を強化する。</span></p>
+}
+
+::問75::[html]<p>リーダーシップ論のうち, F. E. フィードラーが提唱するコンティンジェンシー理論の特徴はどれか。</p>{
+	~<p><span data-sheets-root\="1">優れたリーダーシップを発揮する, リーダー個人がもつ性格, 知性, 外観などの個人的資質の分析に焦点を当てている。</span></p>
+	~<p><span data-sheets-root\="1">リーダーシップのスタイルについて, 目標達成能力と集団維持能力の二つの次元に焦点を当てている。</span></p>
+	~<p><span data-sheets-root\="1">リーダーシップの有効性は, 部下の成熟（自律性）の度合いという状況要因に依存するとしている。</span></p>
+	=<p><span data-sheets-root\="1">リーダーシップの有効性は, リーダーがもつパーソナリティと, リーダーがどれだけ統制力や影響力を行使できるかという状況要因に依存するとしている。</span></p>
+}
+
+::問76::[html]<p>発生した故障について, 発生要因ごとの件数の記録を基に, 故障発生件数で上位を占める主な要因を明確に表現するのに適している図法はどれか。</p>{
+	~<p><span data-sheets-root\="1">特性要因図</span></p>
+	=<p><span data-sheets-root\="1">パレート図</span></p>
+	~<p><span data-sheets-root\="1">マトリックス図</span></p>
+	~<p><span data-sheets-root\="1">連関図</span></p>
+}
+
+::問77::[html]<p>取得原価 30 万円の PCを 2 年間使用した後, 処分し, 処分費用 2 万円を現金で支払った。このときの固定資産の除却費は処分費用も含めて何万円か。ここで，耐用年数は 4 年, 減価償却方法は定額法, 定額法の償却率は 0.250, 残存価格は 0 円とする。</p>{
+	~<p><span data-sheets-root\="1">9.5</span></p>
+	~<p><span data-sheets-root\="1">13</span></p>
+	~<p><span data-sheets-root\="1">15</span></p>
+	=<p><span data-sheets-root\="1">17</span></p>
+}
+
+::問78::[html]<p>プログラムの著作物について, 著作権法上, 適法である行為はどれか。</p>{
+	~<p><span data-sheets-root\="1">海賊版を複製したプログラムと事前に知りながら入手し, 業務で使用した。</span></p>
+	~<p><span data-sheets-root\="1">業務処理用に購入したプログラムを複製し, 社内教育用として各部門に配布した。</span></p>
+	~<p><span data-sheets-root\="1">業務著作のプログラムを，作成した担当者が独断で複製し, 他社に貸与した。</span></p>
+	=<p><span data-sheets-root\="1">処理速度を向上させるために，購入したプログラムを改変した。</span></p>
+}
+
+::問79::[html]<p>匿名加工情報取扱事業者が, 適正な匿名加工を行った匿名加工情報を第三者提供する際の義務として, 個人情報保護法に規定されているものはどれか。</p>{
+	=<p><span data-sheets-root\="1">第三者に提供される匿名加工情報に含まれる個人に関する情報の項目及び提供方法を公表しなければならない。</span></p>
+	~<p><span data-sheets-root\="1">第三者へ提供した場合は, 速やかに個人情報保護委員会へ提供した内容を報告しなければならない。</span></p>
+	~<p><span data-sheets-root\="1">第三者への提供の手段は，ハードコピーなどの物理的な媒体を用いることに限られる。</span></p>
+	~<p><span data-sheets-root\="1">匿名加工情報であっても, 第三者提供を行う際には事前に本人の同意が必要である。</span></p>
+}
+
+::問80::[html]<p>企業と労働者の関係を表している図で，全社 A と労働者 C の関係に関する記述のうち, 適切なものはどれか。</p>{
+	~<p><span data-sheets-root\="1">「契約」が請負契約で, 企業 A が受託者, 企業 B が委託者であるとき, 企業 B と労働者 C との間には, 指揮命令関係が生じる。</span></p>
+	=<p><span data-sheets-root\="1">「契約」が出向にかかわる契約で, 企業 A が企業 B に労働者 C を出向させたとき,企業 B と労働者 C との間には指揮命令関係が生じる。</span></p>
+	~<p><span data-sheets-root\="1">「契約」が労働者派遣契約で, 企業 A が派遣元, 企業 B が派遣先であるとき, 企業 B と労働者 C の間にも, 雇用関係が生じる。</span></p>
+	~<p><span data-sheets-root\="1">「契約」が労働者派遣契約で, 企業 A が派遣元, 企業 B が派遣先であるとき, 企業 B に労働者 C が出向しているといえる。</span></p>
+}
+
